@@ -4,7 +4,7 @@ import 'package:get/state_manager.dart';
 class CounterController extends GetxController {
   var num = 0.obs;
 
-  void increment() {
-    num++;
+  void decrement() {
+    num--;
   }
 }
